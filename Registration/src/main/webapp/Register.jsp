@@ -59,7 +59,7 @@ class that extends HttpServlet
 </form>
  
 <div class="message">
-zZ    <%= request.getAttribute("message") != null ? request.getAttribute("message") : "" %>
+    <%= request.getAttribute("message") != null ? request.getAttribute("message") : "" %>
 </div>
  
 </body>
